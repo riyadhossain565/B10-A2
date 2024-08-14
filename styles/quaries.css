@@ -1,0 +1,179 @@
+/* ----------------- Responsive ---------------- */
+
+/******************************/
+/* Below 576px (Small device) */
+/*****************************/
+
+@media (max-width: 36em) {
+  .header-section {
+    padding: 0 4.8rem;
+    padding-top: 5.6rem;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .logo {
+    font-size: 4rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .banner {
+    max-width: 58rem;
+    padding: 0 4.8rem;
+    grid-template-columns: 1fr;
+  }
+
+  .banner-heading {
+    font-size: 4.8rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.4rem 2rem;
+  }
+
+  .banner-img {
+    padding-left: 3.2rem;
+  }
+  .card-one {
+    width: 15rem;
+    height: 9rem;
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    /* margin-right: 6px; */
+    position: absolute;
+    right: 1.8rem;
+    top: 6.4rem;
+  }
+
+  .card-num-one {
+    font-size: 3.2rem;
+  }
+  .mobile-font {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    padding-top: 8px;
+  }
+
+  .card-two {
+    width: 18rem;
+    padding: 2rem 0;
+
+    position: absolute;
+    bottom: 22.4rem;
+    right: 13.4rem;
+  }
+  .red-icon {
+    display: none;
+  }
+
+  .play-icon {
+    display: block;
+    height: 2.4rem;
+    width: 2.4rem;
+    padding: 8px;
+    margin-left: 1rem;
+    background-color: #e6533c;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  .card-num-two {
+    font-size: 2rem;
+  }
+
+  .container {
+    max-width: 58rem;
+    padding: 0;
+  }
+
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+
+  .habits-img-box {
+    flex-direction: column;
+  }
+
+  .running-section {
+    padding: 0 3.2rem;
+  }
+
+  .running-box {
+    grid-template-columns: 1fr;
+  }
+
+  .running-description {
+    padding: 3.2rem;
+  }
+
+  .title-padding-mb {
+    padding-right: 8rem;
+  }
+
+  .text-padding-mb {
+    padding-right: 5.6rem;
+  }
+
+  .btn-mb {
+    width: 70%;
+    text-align: center;
+  }
+
+  .running {
+    width: 80%;
+    margin-left: 3.6rem;
+  }
+
+  .bmi-title {
+    margin: 0 5.6rem;
+  }
+
+  .calculator {
+    grid-template-columns: 1fr;
+    padding: 3.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .bmi-text-mb {
+    padding-right: 7.8rem;
+  }
+
+  .bmi-input-mb {
+    padding-right: 1.2rem;
+  }
+
+  .bmi-option {
+    padding-right: 10.2rem;
+  }
+
+  .bmi-select {
+    padding-right: 19.6rem;
+  }
+
+  .team-img-box {
+    max-width: 37.5rem;
+  }
+
+  .footer-container {
+    max-width: 38rem;
+    grid-template-columns: 1fr;
+    padding: 3.2rem 1rem;
+  }
+
+  .footer-title-box {
+    padding-bottom: 3.2rem;
+  }
+
+  .get-started-box {
+    flex-direction: column;
+  }
+}

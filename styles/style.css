@@ -505,6 +505,80 @@ td {
   padding-top: 8px;
 }
 
+/* ------Blog Section------- */
+
+.blog-section {
+  background-color: rgb(0, 0, 0);
+  padding: 3.2rem 0;
+}
+
+.blog-container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.blog {
+  padding-left: 3.4rem;
+}
+
+.blog-title {
+  font-size: 4.8rem;
+  font-weight: 300;
+  font-family: inherit;
+  color: #e6533c;
+  font-style: italic;
+}
+
+.blog-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.4rem;
+  padding-bottom: 3.2rem;
+}
+
+.card {
+  background-color: rgb(34, 34, 34);
+  display: grid;
+  row-gap: 3.2rem;
+  /* padding-bottom: 2.4rem; */
+}
+
+.card-img {
+  width: 30.6rem;
+}
+
+.keyword {
+  padding-left: 4.8rem;
+}
+
+.keyword-link {
+  font-size: 1.6rem;
+  color: #e6533c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.card-link {
+  font-size: 2rem;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  padding: 0 4.8rem 4.8rem 4.8rem;
+  transition: all 0.5s;
+}
+
+.card-link:hover,
+.card-link:active {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #e6533c;
+}
+
 /* -----Footer Section------ */
 
 .footer-section {

@@ -85,7 +85,7 @@ body {
 
 .btn--main:hover,
 .btn--main:active {
-  background-color: #ed492f;
+  background-color: #ef4126;
 }
 
 .btn--outline:link,
@@ -362,6 +362,7 @@ body {
   border-radius: 18px;
   background: rgb(34, 34, 34);
   padding-bottom: 3.2rem;
+  box-shadow: 0 2.4rem 5.6rem rgba(0, 0, 0, 0.075);
 }
 
 .running {
@@ -371,12 +372,8 @@ body {
   margin-left: 9.6rem;
 }
 .running-img {
-  /* height: 300px;
-  width: 366px; */
   width: 100%;
   border-radius: 18px;
-
-  /* object-fit: cover; */
 }
 
 /* ------BMI section------- */
@@ -514,12 +511,15 @@ td {
 }
 
 .blog-container {
-  max-width: 130rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
 .blog {
   padding-left: 3.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .blog-title {
@@ -528,6 +528,23 @@ td {
   font-family: inherit;
   color: #e6533c;
   font-style: italic;
+}
+
+.read-more-btn {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: uppercase;
+  padding: 1.8rem 3.2rem;
+  background-color: #e6533c;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+}
+
+.read-more-btn:hover,
+.read-more-btn:active {
+  background-color: #ef4126;
 }
 
 .blog-card {
@@ -555,11 +572,11 @@ td {
 }
 
 .card-img {
-  width: 30.6rem;
+  width: 28.6rem;
 }
 
 .keyword {
-  padding-left: 4.8rem;
+  padding-left: 3.8rem;
 }
 
 .keyword-link {
@@ -579,7 +596,7 @@ td {
   font-weight: 500;
   color: rgb(255, 255, 255);
   line-height: 1.5;
-  padding: 0 4.8rem 4.8rem 4.8rem;
+  padding: 0 4.8rem 4.8rem 3.8rem;
   transition: all 0.2s;
 }
 
@@ -634,3 +651,7 @@ td {
 .padding-bt {
   padding-bottom: 2rem;
 }
+
+/* .form-item {
+  display: flex;
+} */

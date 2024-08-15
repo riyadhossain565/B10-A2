@@ -126,8 +126,13 @@
   }
 
   .running {
-    width: 80%;
+    /* width: 75%; */
+    width: 325px;
     margin-left: 3.6rem;
+  }
+
+  .running-img {
+    width: 90%;
   }
 
   .bmi-title {
@@ -136,7 +141,7 @@
 
   .calculator {
     grid-template-columns: 1fr;
-    padding: 3rem;
+    padding: 3rem 3rem 3rem 2rem;
   }
 
   .heading-secondary {
@@ -148,15 +153,15 @@
   }
 
   .bmi-input-mb {
-    padding-right: 6rem;
+    padding-right: 0;
   }
 
   .bmi-option {
-    padding-right: 16rem;
+    padding-right: 10rem;
   }
 
   .bmi-select {
-    padding-right: 6rem;
+    padding-right: 20.5rem;
   }
 
   .team-img-box {
@@ -165,6 +170,8 @@
 
   .blog {
     margin-left: 3.2rem;
+    margin-bottom: 2.4rem;
+    flex-direction: column;
   }
 
   .blog-card {
@@ -173,7 +180,7 @@
   }
 
   .card {
-    margin: 0 5.6rem;
+    margin: 0 7.6rem;
   }
 
   .card-img {

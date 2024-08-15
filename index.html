@@ -30,6 +30,7 @@
         </ul>
       </nav>
 
+      <!-- mobile -->
       <button class="btn-mobile-nav">
         <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
       </button>
@@ -154,7 +155,7 @@
               pacing, and maintaining good hydration. Start by slowly increasing
               your distance, incorporate intervals of walking if necessary.
             </p>
-            <a href="" class="btn btn--secondary btn-mb">Join Now</a>
+            <a href="" class="btn btn--main btn--secondary btn-mb">Join Now</a>
           </div>
           <div class="running">
             <img class="running-img" src="images/run-1.jpg" alt="" />
@@ -210,40 +211,42 @@
               normal weight, overweight, or obese.
             </p>
 
-            <div>
-              <input
-                class="bmi-input bmi-input-mb"
-                type="text"
-                placeholder="Height/cm"
-              />
-              <input
-                class="bmi-input bmi-input-mb"
-                type="text"
-                placeholder="Weight/kg"
-              />
-            </div>
-            <div>
-              <input
-                class="bmi-input bmi-input-mb"
-                type="text"
-                placeholder="Age"
-              />
-              <select class="bmi-input bmi-option" name="" id="">
-                <option value="sex">Sex</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
+            <form action="">
+              <div class="form-item">
+                <input
+                  class="bmi-input bmi-input-mb"
+                  type="text"
+                  placeholder="Height/cm"
+                />
+                <input
+                  class="bmi-input bmi-input-mb"
+                  type="text"
+                  placeholder="Weight/kg"
+                />
+              </div>
+              <div>
+                <input
+                  class="bmi-input bmi-input-mb"
+                  type="text"
+                  placeholder="Age"
+                />
+                <select class="bmi-input bmi-option" name="" id="">
+                  <option value="sex">Sex</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <select class="bmi-input bmi-select" name="" id="">
+                <option value="">Select an activity factor</option>
+                <option value="">Sedentary</option>
+                <option value="">Lightly Active</option>
+                <option value="">Very Active</option>
+                <option value="">Super Active</option>
               </select>
-            </div>
-            <select class="bmi-input bmi-select" name="" id="">
-              <option value="">Select an activity factor</option>
-              <option value="">Sedentary</option>
-              <option value="">Lightly Active</option>
-              <option value="">Very Active</option>
-              <option value="">Super Active</option>
-            </select>
-            <a class="btn btn--secondary margin-top btn-mb" href=""
-              >Calculate</a
-            >
+              <a class="btn btn--main btn--secondary margin-top btn-mb" href=""
+                >Calculate</a
+              >
+            </form>
           </div>
         </div>
       </section>
@@ -325,45 +328,57 @@
       <section class="blog-section">
         <div class="blog-container">
           <div class="blog">
-            <span class="blog-title">Grow on Purpose</s>
-            <h1 class="heading-primary">Tips, Tricks & News</h1>
-            
+            <div>
+              <span class="blog-title">Grow on Purpose</span>
+              <h1 class="heading-primary">Tips, Tricks & News</h1>
+            </div>
+            <div>
+              <button class="read-more-btn">Read More News</button>
+            </div>
           </div>
 
           <div class="blog-card">
             <div class="card">
-              <img class="card-img" src="images/blog-1.jpg" alt="">
-            <div class="keyword">
-              <span><a href="" class="keyword-link">Lifestyle , </a></span>
-              <span><a href="" class="keyword-link">Nutrition</a></span>
-            </div>
-              <a href="" class="card-link">Why Fittlife is The Best Theme For Your Business</a>
-            </div>
-
-            <div class="card">
-              <img class="card-img" src="images/blog-2.jpg" alt="">
-            <div class="keyword">
-              <span><a href="" class="keyword-link">Healthy , </a></span>
-              <span><a href="" class="keyword-link">Nutrition</a></span>
-            </div>
-              <a href="" class="card-link">How to Have a Successful Personal Training Business</a>
+              <img class="card-img" src="images/blog-1.jpg" alt="" />
+              <div class="keyword">
+                <span><a href="" class="keyword-link">Lifestyle , </a></span>
+                <span><a href="" class="keyword-link">Nutrition</a></span>
+              </div>
+              <a href="" class="card-link"
+                >Why Fittlife is The Best Theme For Your Business</a
+              >
             </div>
 
             <div class="card">
-              <img class="card-img" src="images/blog-3.jpg" alt="">
-            <div class="keyword">
-              <span><a href="" class="keyword-link">Fitness , </a></span>
-              <span><a href="" class="keyword-link">Motivation</a></span>
+              <img class="card-img" src="images/blog-2.jpg" alt="" />
+              <div class="keyword">
+                <span><a href="" class="keyword-link">Healthy , </a></span>
+                <span><a href="" class="keyword-link">Nutrition</a></span>
+              </div>
+              <a href="" class="card-link"
+                >How to Have a Successful Personal Training Business</a
+              >
             </div>
-              <a href="" class="card-link">This is How You Choose the Right Nutrition Course</a>
+
+            <div class="card">
+              <img class="card-img" src="images/blog-3.jpg" alt="" />
+              <div class="keyword">
+                <span><a href="" class="keyword-link">Fitness , </a></span>
+                <span><a href="" class="keyword-link">Motivation</a></span>
+              </div>
+              <a href="" class="card-link"
+                >This is How You Choose the Right Nutrition Course</a
+              >
             </div>
             <div class="card">
-              <img class="card-img" src="images/blog-4.jpg" alt="">
-            <div class="keyword">
-              <span><a href="" class="keyword-link">Weight Loss , </a></span>
-              <span><a href="" class="keyword-link">Workout</a></span>
-            </div>
-              <a href="" class="card-link">Gym Machine Workout Routine For Beginners.</a>
+              <img class="card-img" src="images/blog-4.jpg" alt="" />
+              <div class="keyword">
+                <span><a href="" class="keyword-link">Weight Loss , </a></span>
+                <span><a href="" class="keyword-link">Workout</a></span>
+              </div>
+              <a href="" class="card-link"
+                >Gym Machine Workout Routine For Beginners.</a
+              >
             </div>
           </div>
         </div>

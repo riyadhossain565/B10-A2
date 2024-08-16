@@ -201,3 +201,48 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 25em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1.4rem 1.2rem;
+  }
+
+  .card-one {
+    width: 13rem;
+    right: 2.8rem;
+  }
+
+  .running-img {
+    width: 72%;
+  }
+
+  .bmi-input-mb {
+    padding-right: 32px;
+  }
+
+  .bmi-option {
+    padding-right: 12rem;
+  }
+
+  .bmi-select {
+    padding-right: 1.8rem;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .keyword {
+    padding-left: 2.8rem;
+  }
+
+  .card-link {
+    font-size: 1.8rem;
+  }
+
+  .footer-container {
+    padding: 3.2rem 2rem;
+  }
+}
